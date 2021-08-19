@@ -11,4 +11,4 @@ phases:
 artifacts:
   files:
     - src/**/*
-    git- package.json
+    - package.json
