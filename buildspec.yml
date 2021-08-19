@@ -6,8 +6,9 @@ phases:
   pre_build:
     commands:
       - npm build
+      - npm install -g mocha
       - npm test
 artifacts:
   files:
     - src/**/*
-    - package.json
+    git- package.json
