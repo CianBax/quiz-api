@@ -8,6 +8,6 @@ phases:
       - npm build
       - npm test
 artifacts:
-files:
-- src/**/*
-- package.json
+  files:
+    - src/**/*
+    - package.json
